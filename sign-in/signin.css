@@ -1,0 +1,108 @@
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: black;
+  color: white;
+}
+
+.plahodler{
+  color: white;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.icon-logo{
+  font-size: 4em;
+  color: white;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+@font-face {
+  font-family: namesFont;
+  src: url(glitch126.ttf);
+}
+
+.fw-normal{
+  font-family: namesFont;
+  font-size: 26px;
+}
+
+.form-control{
+  background-color: black;
+  color: white;
+}
+.form-control:focus{
+  background-color: black;
+  color: white;
+}
+.text-muted{
+  margin-top: 60px;
+}
+.button-43 {
+  background-image: linear-gradient(-180deg, #342633 0%, #423545 100%);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-size: 14px;
+  justify-content: center;
+  text-decoration: none;
+  border: 0;
+  cursor: pointer;
+  user-select: none;
+  font-family: Arial;
+  text-transform: uppercase;
+  
+  
+}
+
+.button-43:hover {
+  background-image: linear-gradient(-180deg , #423545 100% ,#342633 0%);
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .button-43 {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      width: 120px;
+      font-size: 16px;
+      float: right;
+  }
+}
+
+@media (max-width: 310px){
+.text-muted{
+  font-size: 14px;
+}
+}
+
+@media (max-width: 274px){
+  .text-muted{
+    font-size: 13px;
+  }
+}
