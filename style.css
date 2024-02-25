@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.flx{
+    display: flex;
+}
+.about{
+    width: 50vw;
+    background-color: black;
+    height: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.welcom{
+    margin-top: 60px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+
+.Syllbus{
+    width: 50vw;
+}
+.hello{
+    margin-left: 55px;
+    margin-top: 30px;
+}
+.name{
+    margin-left: 55px;
+    margin-top: 4px;
+    font-size: 20px;
+}
+.name span{
+    color: gold;
+}
+.intro{
+    margin-left: 55px;
+    margin-top: 20px;
+    width: 80%;
+    text-align: justify;
+
+}
+a{
+    text-decoration: none;
+}
+.aboutbtn{
+    width: 70%;
+    margin-top: 20px;
+    font-size: 22px;
+    background-image: linear-gradient(80deg, rgb(163, 60, 60), rgb(207, 85, 152));
+    color: white;
+    padding: 5px;
+    border: solid #1c0707 0.3px;
+}
+
+.Syllbus{
+    background-image: linear-gradient(80deg, rgb(163, 60, 60), rgb(207, 85, 152));
+}
+.subject{
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: 20px;
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+.slybuttxt{
+    margin-left: 60px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;   
+    color: white;
+}
+.footer{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: gold;
+}
+
+@media screen and (max-width: 468px){
+.flx{
+    display: flex;
+    flex-direction: column;
+}
+.about{
+    width: 100vw;
+}
+
+.Syllbus{
+    width: 100vw;
+    height: 102vh;
+}
+.welcom{
+    font-size: 28px;
+}
+.hello{
+    margin-left: 10px;
+}
+.intro{
+    margin-left: 20px;
+}
+.name{
+    margin-left: 10px;   
+}
+.subject{
+    margin-left: 10px;
+}
+
+.slybuttxt{
+    margin-left: 20px;   
+    width: 300px; 
+}
+}
