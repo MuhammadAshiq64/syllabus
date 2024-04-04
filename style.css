@@ -23,6 +23,7 @@
 
 .Syllbus{
     width: 50vw;
+    
 }
 .hello{
     margin-left: 55px;
@@ -39,8 +40,9 @@
 .intro{
     margin-left: 55px;
     margin-top: 20px;
-    width: 80%;
+    width:  88%;
     text-align: justify;
+    text-decoration: uppercase;
 
 }
 
@@ -64,7 +66,7 @@ a{
 }
 
 .Syllbus{
-    background-image: linear-gradient(80deg, rgb(163, 60, 60), rgb(207, 85, 152));
+    background-color: #444C5B;
 }
 .subject{
     font-size: 20px;
